@@ -62,10 +62,10 @@ System.out.println(cor.cinza("Texto em cinza"));
     - **true**: Irá retirar o fundo após o uso.
     - **false**: Não irá retirar o fundo após o uso.
 
-2 - ```CorTexto.resetFundo();```
+2 - ```CorFundo.resetFundo();```
   * Retorna o ANSI code que reseta o fundo.
 
-3 - ```CorTexto.resetAll();```
+3 - ```CorFundo.resetAll();```
   * Retorna o ANSI code que reseta tudo.
   * Método padrão existente em todos as classes desse programa.
 
@@ -113,7 +113,7 @@ Texto.sublinhado(String, Boolean);
     - **true**: Irá retirar todas as formatações após o uso.
     - **false**: Não irá retirar as formatações após o uso.
 
-2 - ```CorTexto.resetAll();```
+2 - ```Texto.resetAll();```
   * Retorna o ANSI code que reseta tudo.
   * Método padrão existente em todos as classes desse programa.
 
