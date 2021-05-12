@@ -110,8 +110,8 @@ Texto.sublinhado(String, Boolean);
 ```
 
   * O **Boolean** é OPCIONAL e assume por padrão o valor true.
-    - **true**: Irá retirar o fundo após o uso.
-    - **false**: Não irá retirar o fundo após o uso.
+    - **true**: Irá retirar todas as formatações após o uso.
+    - **false**: Não irá retirar as formatações após o uso.
 
 2 - ```CorTexto.resetAll();```
   * Retorna o ANSI code que reseta tudo.
